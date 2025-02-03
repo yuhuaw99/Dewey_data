@@ -3,7 +3,7 @@ Accessing Dewey data for research
 
 ## Download data
 
-Use 01_download_data.ipynb to download needed data
+Use 01_download_data_public.ipynb to download needed data
 
 reference: https://docs.deweydata.io/docs/api-access
 

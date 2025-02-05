@@ -1,6 +1,7 @@
 
-# folder
-monthly_pattern/2024_01_05/
-monthly_pattern/2024_01_05_preprocessed/
-monthly_pattern/2024_01_05_monthly/
+# file and folder
+monthly_pattern/2024/
+monthly_pattern/2024_preprocessed/
+monthly_pattern/2024_monthly/
+monthly_pattern/2024_monthly_msa/
 01_download_data.ipynb

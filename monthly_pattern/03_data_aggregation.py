@@ -3,6 +3,7 @@ import concurrent.futures
 import os
 
 def read_csv_file(file_path):
+    # assign category as category column to save memory use
     dtype_dict = {
         'category':'category'
     }
@@ -25,5 +26,6 @@ if __name__ == '__main__':
         # print('------------------')
         # print(file_paths)
         combined_df = parallel_read_and_concat(file_paths)
+        combined_df = combined_df[['poi_cbg', 'category', 'visitor_home_cbgs', 'visitor_count']]
         combined_df.to_csv('2024_01_05_monthly/'+'monthly_pattern_'+month+'.csv')
         del combined_df

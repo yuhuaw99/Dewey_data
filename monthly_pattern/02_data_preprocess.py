@@ -76,11 +76,17 @@ def transform_od(df):
     return df
 
 
+# pre aggregate data to reduce file size
+def pre_aggregate(df):
+    df = df.groupby(['visitor_home_cbgs','category', 'poi_cbg']).agg({'visitor_count':'sum'})
+    return df
+
 # wrap function for preprocess
 def preprocess(df, poi_category=poi_category):
     df = gen_category(df, poi_category)
     df = aggregate(df)
     df = transform_od(df)
+    df = pre_aggregate(df)
     return df 
 
 
@@ -94,13 +100,15 @@ def excute(file_path_list):
     df = read_file(file_path_list[0])
     df = preprocess(df)
     write_file(df, file_path_list[1])
+    print(file_path_list[0]+'is done!')
+    print('#'*20)
 
 
 def main():
-    in_file_list = [file for file in os.listdir('2024_01_05') if 'Foot' in file]
+    in_file_list = [file for file in os.listdir('2024') if 'Foot' in file]
     out_file_list = [file[:-3] for file in in_file_list]
     file_list = list(zip(in_file_list, out_file_list))
-    file_list = [[f'2024_01_05/{x}', f'2024_01_05_preprocessed/{y}'] for x,y in file_list]
+    file_list = [[f'2024/{x}', f'2024_preprocessed/{y}'] for x,y in file_list]
 
     # with parallel_backend('loky', n_jobs=-1):
     #     Parallel()(delayed(excute(x)) for x in file_list)

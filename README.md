@@ -12,7 +12,7 @@ Use 02_data_preprocess.ipynb as reference and use 02_data_preprocess to enable p
 
 Use 03_data_aggregation.py to aggregate seperate file into on big file for each month.
 
-Use 04_data_filter.ipynb to get mobility pattern within MSA.
+Use 04_data_filter.ipynb to get mobility pattern within top-100 largest MSA.
 
 
 

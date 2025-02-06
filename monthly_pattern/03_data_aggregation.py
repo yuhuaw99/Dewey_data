@@ -26,8 +26,7 @@ def parallel_read_and_concat(file_paths):
     combined_df = pd.concat(dfs, ignore_index=True)
     return combined_df
 
-
-if __name__ == '__main__':
+def main():
     files = os.listdir('2024_preprocessed')
     months = [str(x).zfill(2) for x in range(1,6)]
     for month in months:
@@ -47,3 +46,7 @@ if __name__ == '__main__':
         print('File has been saved!')
         del combined_df
         print('#'*20)
+
+
+if __name__ == '__main__':
+    main()

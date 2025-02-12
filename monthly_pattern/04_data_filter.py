@@ -6,50 +6,42 @@ import concurrent.futures
 
 
 def filter_file(file):
-    print('Download data from Census....')
-    # set up for census
-    API_KEY = "c45c87b10be4ee416ac0e7acde8def5fb840398c"
-    c = Census(API_KEY)
-
-    employment_var = 'B01003_001E'
-
-    # get census data
-    msa_employment = c.acs5.get(
-        ('NAME', employment_var),
-        {'for': 'metropolitan statistical area/micropolitan statistical area:*'}
-    )
-
-    # select top 100
-    msa_100 = pd.DataFrame(msa_employment).sort_values(by=employment_var, ascending=False).head(100)
-
-    # rename column
-    msa_100.columns = ['msa', 'pop', 'cbsacode']
-
-    # change column type
-    msa_100.loc[:, 'cbsacode'] = msa_100['cbsacode'].astype('int64')
-
-    print('Read crosswalk data.....')
+    print('Read crosswalk data')
     # read msa2county cross walk 
-    msa_county_cw = pd.read_excel('cbsa2fipsxw.xlsx')
-
-    # select only msa 
-    msa_county_cw = msa_county_cw[msa_county_cw['metropolitanmicropolitanstatis']=='Metropolitan Statistical Area']
+    msa_county_cw = pd.read_csv('cbsa2fipsxw.csv')
+    # msa_county_cw = pd.read_excel('cbsa2fipsxw.xlsx')
 
     # create county column
     msa_county_cw.loc[:, 'countyfips'] = msa_county_cw['fipsstatecode'].apply(lambda x: str(x).zfill(2)) + msa_county_cw['fipscountycode'].apply(lambda x: str(x).zfill(3))
 
+    # filter out only msa
+    msa_county_cw = msa_county_cw[msa_county_cw['metropolitanmicropolitanstatis'] == 'Metropolitan Statistical Area']
+
     # select needed column
     msa_county_cw = msa_county_cw[['cbsacode', 'countyfips']]
 
+    print('Read msa_pop file.....')
+    # read msa_pop file
+    msa_pop = pd.read_csv('msa_pop.csv')
+
+    # groupby msa code to get overall pop
+    msa_pop = msa_pop.groupby('msa').agg({'pop':'sum'}).reset_index()
+
+    # filter out only msa 
+    msa_pop = msa_pop[msa_pop['msa'].isin(msa_county_cw['cbsacode'].unique())]
+
+    # get top 100 msa
+    msa_pop = msa_pop.sort_values('pop', ascending=False).reset_index(drop=True)
+    msa_pop = msa_pop.head(100)
 
     # filter cw
-    msa_county_cw = msa_county_cw[msa_county_cw['cbsacode'].isin(msa_100['cbsacode'])]
+    msa_county_cw = msa_county_cw[msa_county_cw['cbsacode'].isin(msa_pop['msa'])]
 
     # transform to dict
     msa_county_cw = dict(zip(msa_county_cw['countyfips'], msa_county_cw['cbsacode']))
 
     # read month mobility pattern
-    print('Start reading file'+file)
+    print('Start reading file '+file)
     df_mp = pd.read_csv('2024_monthly/'+file, dtype={'category':'category'}) # save memory use by pre-assign column type
 
     # get county fipscode for both poi and bg

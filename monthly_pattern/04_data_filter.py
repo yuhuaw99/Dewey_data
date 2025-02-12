@@ -15,7 +15,7 @@ def filter_file(file):
     msa_county_cw.loc[:, 'countyfips'] = msa_county_cw['fipsstatecode'].apply(lambda x: str(x).zfill(2)) + msa_county_cw['fipscountycode'].apply(lambda x: str(x).zfill(3))
 
     # filter out only msa
-    msa_county_cw = msa_county_cw[msa_county_cw['metropolitanmicropolitanstatis'] == 'Metropolitan Statistical Area']
+    msa_county_cw = msa_county_cw[(msa_county_cw['metropolitanmicropolitanstatis'] == 'Metropolitan Statistical Area') & (msa_county_cw['countycountyequivalent'].str.contains('County'))]
 
     # select needed column
     msa_county_cw = msa_county_cw[['cbsacode', 'countyfips']]
@@ -58,7 +58,8 @@ def filter_file(file):
     # save file to disk
     df_mp.rename(columns={'bg_msa':'msa'}, inplace=True)
     df_mp = df_mp[['poi_cbg', 'category', 'visitor_home_cbgs', 'visitor_count','msa', 'id']]
-    print('Filtering done, start writing'+file)
+    print('Filtering done, start writing '+file)
+    print(f'{file} contains total of {len(df_mp['msa'].unique())} MSAs')
     df_mp.to_csv('2024_monthly_msa/'+file)
     print(f'Writing {file} done with {len(df_mp)} rows')
 

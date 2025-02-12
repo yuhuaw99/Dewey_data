@@ -58,7 +58,7 @@ def filter_file(file):
     # save file to disk
     df_mp.rename(columns={'bg_msa':'msa'}, inplace=True)
     df_mp = df_mp[['poi_cbg', 'category', 'visitor_home_cbgs', 'visitor_count','msa', 'id']]
-    print('Filtering done, start writing'+file)
+    print('Filtering done, start writing '+file)
     df_mp.to_csv('2024_monthly_msa/'+file)
     print(f'Writing {file} done with {len(df_mp)} rows')
 

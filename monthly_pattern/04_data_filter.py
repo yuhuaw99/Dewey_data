@@ -17,9 +17,14 @@ def filter_file(file):
     # filter out only msa
     msa_county_cw = msa_county_cw[(msa_county_cw['metropolitanmicropolitanstatis'] == 'Metropolitan Statistical Area') & (msa_county_cw['countycountyequivalent'].str.contains('County'))]
 
+    # filter out Hawaii and Alaska
+    msa_county_cw = msa_county_cw[~msa_county_cw['fipsstatecode'].isin([2, 15])]
+
     # select needed column
     msa_county_cw = msa_county_cw[['cbsacode', 'countyfips']]
 
+
+    ###########################################################
     print('Read msa_pop file.....')
     # read msa_pop file
     msa_pop = pd.read_csv('msa_pop.csv')
@@ -32,14 +37,18 @@ def filter_file(file):
 
     # get top 100 msa
     msa_pop = msa_pop.sort_values('pop', ascending=False).reset_index(drop=True)
-    msa_pop = msa_pop.head(100)
 
-    # filter cw
-    msa_county_cw = msa_county_cw[msa_county_cw['cbsacode'].isin(msa_pop['msa'])]
+
+    #############################################################
+    # filter msa 
+    msa_pop = msa_pop[msa_pop['msa'].isin(msa_county_cw['cbsacode'])].head(100)
+    msa_county_cw = pd.merge(msa_county_cw, msa_pop, left_on='cbsacode', right_on='msa', how='inner')
 
     # transform to dict
     msa_county_cw = dict(zip(msa_county_cw['countyfips'], msa_county_cw['cbsacode']))
 
+
+    #############################################################
     # read month mobility pattern
     print('Start reading file '+file)
     df_mp = pd.read_csv('2024_monthly/'+file, dtype={'category':'category'}) # save memory use by pre-assign column type
@@ -59,10 +68,7 @@ def filter_file(file):
     df_mp.rename(columns={'bg_msa':'msa'}, inplace=True)
     df_mp = df_mp[['poi_cbg', 'category', 'visitor_home_cbgs', 'visitor_count','msa', 'id']]
     print('Filtering done, start writing '+file)
-<<<<<<< HEAD
     print(f'{file} contains total of {len(df_mp['msa'].unique())} MSAs')
-=======
->>>>>>> efb78515e7e241def3b0bfcbf1908d0487925cd1
     df_mp.to_csv('2024_monthly_msa/'+file)
     print(f'Writing {file} done with {len(df_mp)} rows')
 

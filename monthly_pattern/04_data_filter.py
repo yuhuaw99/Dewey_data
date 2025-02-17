@@ -2,23 +2,24 @@ import pandas as pd
 import os
 from census import Census
 import concurrent.futures
+import geopandas as gpd
 
 
 
 def filter_file(file):
     print('Read crosswalk data')
     # read msa2county cross walk 
-    msa_county_cw = pd.read_csv('cbsa2fipsxw.csv')
+    msa_county_cw = pd.read_csv('cbsa2fipsxw.csv', dtype={'cbsacode':'str'})
     # msa_county_cw = pd.read_excel('cbsa2fipsxw.xlsx')
 
     # create county column
     msa_county_cw.loc[:, 'countyfips'] = msa_county_cw['fipsstatecode'].apply(lambda x: str(x).zfill(2)) + msa_county_cw['fipscountycode'].apply(lambda x: str(x).zfill(3))
 
     # filter out only msa
-    msa_county_cw = msa_county_cw[(msa_county_cw['metropolitanmicropolitanstatis'] == 'Metropolitan Statistical Area') & (msa_county_cw['countycountyequivalent'].str.contains('County'))]
+    msa_county_cw = msa_county_cw[msa_county_cw['metropolitanmicropolitanstatis'] == 'Metropolitan Statistical Area']
 
-    # filter out Hawaii and Alaska
-    msa_county_cw = msa_county_cw[~msa_county_cw['fipsstatecode'].isin([2, 15])]
+    # filter out Hawaii and Alaska and Puerto Rico
+    msa_county_cw = msa_county_cw[~msa_county_cw['fipsstatecode'].isin([2, 15, 72])]
 
     # select needed column
     msa_county_cw = msa_county_cw[['cbsacode', 'countyfips']]
@@ -27,7 +28,7 @@ def filter_file(file):
     ###########################################################
     print('Read msa_pop file.....')
     # read msa_pop file
-    msa_pop = pd.read_csv('msa_pop.csv')
+    msa_pop = pd.read_csv('msa_pop_20.csv', dtype={'msa':'str'})
 
     # groupby msa code to get overall pop
     msa_pop = msa_pop.groupby('msa').agg({'pop':'sum'}).reset_index()
@@ -40,8 +41,10 @@ def filter_file(file):
 
 
     #############################################################
+    print('read msa file')
+    msa = gpd.read_file('../../General_data/msa_20.gpkg')
     # filter msa 
-    msa_pop = msa_pop[msa_pop['msa'].isin(msa_county_cw['cbsacode'])].head(100)
+    msa_pop = msa_pop[msa_pop['msa'].isin(msa['GEOID'])].head(100)
     msa_county_cw = pd.merge(msa_county_cw, msa_pop, left_on='cbsacode', right_on='msa', how='inner')
 
     # transform to dict

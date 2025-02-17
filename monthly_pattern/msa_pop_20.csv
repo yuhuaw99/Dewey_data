@@ -1,0 +1,1012 @@
+msa,Geo_NAME,pop
+10700,Albertville,96137
+10760,Alexander City,51146
+11500,Anniston-Oxford,114324
+12120,Atmore,36775
+12220,Auburn-Opelika,163461
+13820,Birmingham-Hoover,1088170
+17980,Columbus,57938
+18980,Cullman,83345
+19300,Daphne-Fairhope-Foley,218289
+19460,Decatur,152321
+20020,Dothan,148825
+21460,Enterprise,52238
+21640,Eufaula,25026
+22520,Florence-Muscle Shoals,147827
+22840,Fort Payne,71430
+23460,Gadsden,102721
+26620,Huntsville,464607
+27530,Jasper,63802
+29300,LaGrange,33427
+33660,Mobile,430313
+33860,Montgomery,373552
+37120,Ozark,49293
+42460,Scottsboro,51765
+42820,Selma,38184
+45180,Talladega-Sylacauga,80244
+45980,Troy,33274
+46220,Tuscaloosa,251878
+11260,Anchorage,399450
+21820,Fairbanks,98455
+27940,Juneau,32099
+28540,Ketchikan,13833
+22380,Flagstaff,142254
+29420,Lake Havasu City-Kingman,210998
+35700,Nogales,46594
+37740,Payson,53846
+38060,Phoenix-Mesa-Chandler,4860338
+39150,Prescott Valley-Prescott,232396
+40940,Safford,38304
+43320,Show Low,110271
+43420,Sierra Vista-Douglas,126442
+46060,Tucson,1038476
+49740,Yuma,211931
+11660,Arkadelphia,22341
+12900,Batesville,54802
+14180,Blytheville,41396
+15780,Camden,28757
+20980,El Dorado,39089
+22220,Fayetteville-Springdale-Rogers,526101
+22620,Forrest City,25477
+22900,Fort Smith,208573
+25460,Harrison,45278
+25760,Helena-West Helena,18151
+26260,Hope,29944
+26300,Hot Springs,99043
+27860,Jonesboro,132828
+30780,Little Rock-North Little Rock-Conway,740602
+31620,Magnolia,23620
+31680,Malvern,33667
+32820,Memphis,48381
+34260,Mountain Home,41673
+37500,Paragould,45197
+38220,Pine Bluff,89464
+40780,Russellville,85351
+42620,Searcy,78725
+45500,Texarkana,55860
+12540,Bakersfield,892458
+17020,Chico,223344
+17340,Clearlake,64276
+18860,Crescent City,27692
+20940,El Centro,180580
+21700,Eureka-Arcata,136101
+23420,Fresno,990204
+25260,Hanford-Corcoran,151090
+31080,Los Angeles-Long Beach-Anaheim,13211027
+31460,Madera,155925
+32900,Merced,273661
+33700,Modesto,546235
+34900,Napa,138572
+37100,Oxnard-Thousand Oaks-Ventura,845599
+39780,Red Bluff,64176
+39820,Redding,179267
+40140,Riverside-San Bernardino-Ontario,4600396
+40900,Sacramento-Roseville-Folsom,2338866
+41500,Salinas,432977
+41740,San Diego-Chula Vista-Carlsbad,3323970
+41860,San Francisco-Oakland-Berkeley,4709220
+41940,San Jose-Sunnyvale-Santa Clara,1985926
+42020,San Luis Obispo-Paso Robles,282517
+42100,Santa Cruz-Watsonville,273170
+42200,Santa Maria-Santa Barbara,444895
+42220,Santa Rosa-Petaluma,496801
+43760,Sonora,54147
+44700,Stockton,751615
+45000,Susanville,30600
+46020,Truckee-Grass Valley,99417
+46380,Ukiah,87110
+46700,Vallejo,444538
+47300,Visalia,463955
+49700,Yuba City,173839
+14500,Boulder,324682
+14720,Breckenridge,30735
+15860,Cañon City,47725
+17820,Colorado Springs,735480
+18780,Craig,13150
+19740,Denver-Aurora-Lakewood,2928437
+20420,Durango,56138
+20780,Edwards,54960
+22660,Fort Collins,350523
+22820,Fort Morgan,28617
+24060,Glenwood Springs,77585
+24300,Grand Junction,152962
+24540,Greeley,315389
+33940,Montrose,47170
+39380,Pueblo,167412
+44460,Steamboat Springs,25317
+44540,Sterling,22282
+14860,Bridgeport-Stamford-Norwalk,944306
+25540,Hartford-East Hartford-Middletown,1205842
+35300,New Haven-Milford,855733
+35980,Norwich-New London,266868
+45860,Torrington,181143
+49340,Worcester,116657
+20100,Dover,179124
+37980,Philadelphia-Camden-Wilmington,558306
+41540,Salisbury,230249
+47900,Washington-Arlington-Alexandria,701974
+11580,Arcadia,37371
+15980,Cape Coral-Fort Myers,756570
+17500,Clewiston,41472
+18880,Crestview-Fort Walton Beach-Destin,278479
+19660,Deltona-Daytona Beach-Ormond Beach,658961
+23540,Gainesville,327329
+26140,Homosassa Springs,147938
+27260,Jacksonville,1533796
+28580,Key West,75137
+29380,Lake City,70898
+29460,Lakeland-Winter Haven,705735
+33100,Miami-Fort Lauderdale-Pompano Beach,6129858
+34940,Naples-Marco Island,379345
+35840,North Port-Sarasota-Bradenton,821613
+36100,Ocala,360210
+36380,Okeechobee,41611
+36740,Orlando-Kissimmee-Sanford,2560260
+37260,Palatka,73784
+37340,Palm Bay-Melbourne-Titusville,594001
+37460,Panama City,180076
+37860,Pensacola-Ferry Pass-Brent,496278
+38940,Port St. Lucie,481334
+39460,Punta Gorda,185926
+42680,Sebastian-Vero Beach,156964
+42700,Sebring-Avon Park,104574
+45220,Tallahassee,384783
+45300,Tampa-St. Petersburg-Clearwater,3152928
+45540,The Villages,129938
+48100,Wauchula,27027
+10500,Albany,147431
+11140,Americus,34929
+12020,Athens-Clarke County,210810
+12060,Atlanta-Sandy Springs-Alpharetta,5947008
+12260,Augusta-Richmond County,408335
+12460,Bainbridge,26595
+15260,Brunswick,118149
+15660,Calhoun,57756
+16340,Cedartown,42251
+16860,Chattanooga,152762
+17980,Columbus,261705
+18380,Cordele,22509
+18460,Cornelia,45204
+19140,Dalton,143911
+20060,Douglas,51381
+20140,Dublin,63908
+21640,Eufaula,2290
+22340,Fitzgerald,16889
+23580,Gainesville,201434
+25980,Hinesville,81275
+27600,Jefferson,70467
+27700,Jesup,29959
+29300,LaGrange,70095
+31420,Macon-Bibb County,229565
+33300,Milledgeville,53572
+34220,Moultrie,45510
+40660,Rome,97805
+41220,St. Marys,53960
+42340,Savannah,390211
+44340,Statesboro,77719
+44900,Summerville,24826
+45580,Thomaston,26329
+45620,Thomasville,44545
+45700,Tifton,40590
+45740,Toccoa,25934
+46660,Valdosta,146462
+47080,Vidalia,36016
+47580,Warner Robins,182819
+48180,Waycross,55081
+25900,Hilo,201350
+27980,Kahului-Wailuku-Lahaina,166657
+28180,Kapaa,71949
+46520,Urban Honolulu,979682
+13940,Blackfoot,46246
+14260,Boise City,730483
+15420,Burley,44664
+17660,Coeur d'Alene,161676
+25200,Hailey,23798
+26820,Idaho Falls,148811
+27220,Jackson,11776
+30300,Lewiston,40468
+30860,Logan,13736
+34140,Moscow,40052
+34300,Mountain Home,27043
+36620,Ontario,23705
+38540,Pocatello,94377
+39940,Rexburg,52836
+41760,Sandpoint,44688
+46300,Twin Falls,110272
+14010,Bloomington,172164
+15460,Burlington,6737
+16020,Cape Girardeau,6011
+16060,Carbondale-Marion,136837
+16460,Centralia,37524
+16580,Champaign-Urbana,226418
+16660,Charleston-Mattoon,61852
+16980,Chicago-Naperville-Elgin,8606924
+19180,Danville,76704
+19340,Davenport-Moline-Rock Island,207336
+19500,Decatur,104688
+19940,Dixon,34204
+20820,Effingham,34151
+22800,Fort Madison-Keokuk,17820
+23300,Freeport,44683
+23660,Galesburg,50052
+27300,Jacksonville,38994
+28100,Kankakee,109924
+30660,Lincoln,28818
+31380,Macomb,30107
+34500,Mount Vernon,37774
+36837,Ottawa,147596
+37140,Paducah,14041
+37900,Peoria,403747
+38700,Pontiac,35757
+39500,Quincy,65670
+40300,Rochelle,50793
+40420,Rockford,336928
+41180,St. Louis,685903
+44100,Springfield,208224
+44580,Sterling,55583
+45380,Taylorville,32705
+11420,Angola,34591
+12140,Auburn,43193
+13260,Bedford,45552
+14020,Bloomington,168172
+14160,Bluffton,28010
+16980,Chicago-Naperville-Elgin,702879
+17140,Cincinnati,85392
+18020,Columbus,83280
+18220,Connersville,23068
+18820,Crawfordsville,38295
+19540,Decatur,35544
+21140,Elkhart-Goshen,205184
+21780,Evansville,269636
+23060,Fort Wayne,409419
+23140,Frankfort,32186
+24700,Greensburg,26587
+26540,Huntington,36351
+26900,Indianapolis-Carmel-Anderson,2050933
+27540,Jasper,54898
+28340,Kendallville,47640
+29020,Kokomo,82486
+29200,Lafayette-West Lafayette,230353
+30900,Logansport,37727
+31140,Louisville/Jefferson County,263395
+31500,Madison,32167
+31980,Marion,66055
+33140,Michigan City-La Porte,110026
+34620,Muncie,114461
+35220,New Castle,48158
+35860,North Vernon,27639
+37940,Peru,35684
+38500,Plymouth,46336
+39980,Richmond,66176
+42500,Scottsburg,23785
+42980,Seymour,44077
+43780,South Bend-Mishawaka,270881
+45460,Terre Haute,186580
+47180,Vincennes,36833
+47340,Wabash,31198
+47700,Warsaw,79156
+47780,Washington,33277
+11180,Ames,123736
+15460,Burlington,39227
+16140,Carroll,20150
+16300,Cedar Rapids,271734
+17540,Clinton,46734
+19340,Davenport-Moline-Rock Island,172938
+19780,Des Moines-West Des Moines,690585
+20220,Dubuque,97193
+21840,Fairfield,18153
+22700,Fort Dodge,36348
+22800,Fort Madison-Keokuk,33946
+26980,Iowa City,172919
+32260,Marshalltown,39804
+32380,Mason City,50094
+34700,Muscatine,42703
+36540,Omaha-Council Bluffs,122544
+36820,Oskaloosa,22351
+36900,Ottumwa,35102
+37800,Pella,33193
+43580,Sioux City,102687
+43980,Spencer,16138
+44020,Spirit Lake,17260
+44740,Storm Lake,19950
+47940,Waterloo-Cedar Falls,169107
+11860,Atchison,16210
+17700,Coffeyville,32114
+19980,Dodge City,33718
+21380,Emporia,35841
+23780,Garden City,40314
+24460,Great Bend,26209
+25700,Hays,28747
+26740,Hutchinson,62421
+28140,Kansas City,887947
+29940,Lawrence,121304
+30580,Liberal,21902
+31740,Manhattan,131571
+32700,McPherson,28557
+36840,Ottawa,25643
+37660,Parsons,19938
+38260,Pittsburg,38874
+41140,St. Joseph,7616
+41460,Salina,60160
+45820,Topeka,232248
+48620,Wichita,639668
+49060,Winfield,35090
+12680,Bardstown,45915
+14540,Bowling Green,176852
+15820,Campbellsville,36572
+16420,Central City,30815
+17140,Cincinnati,449290
+17300,Clarksville,86039
+19220,Danville,54583
+21060,Elizabethtown-Fort Knox,152275
+21780,Evansville,45550
+23180,Frankfort,73324
+23980,Glasgow,54088
+26580,Huntington-Ashland,109696
+30460,Lexington-Fayette,514273
+30940,London,148281
+31140,Louisville/Jefferson County,998892
+31580,Madisonville,45044
+32460,Mayfield,37125
+32500,Maysville,17122
+33180,Middlesborough,26426
+34460,Mount Sterling,46926
+34660,Murray,38991
+36980,Owensboro,118951
+37140,Paducah,82571
+40080,Richmond-Berea,106277
+43700,Somerset,64789
+10780,Alexandria,152715
+12940,Baton Rouge,856779
+14220,Bogalusa,46325
+19760,DeRidder,37387
+22860,Fort Polk South,49315
+25220,Hammond,133753
+26380,Houma-Thibodaux,209277
+27660,Jennings,31425
+29180,Lafayette,490220
+29340,Lake Charles,209821
+33380,Minden,38813
+33740,Monroe,202138
+34020,Morgan City,50020
+35020,Natchez,19533
+35060,Natchitoches,38505
+35380,New Orleans-Metairie,1271651
+36660,Opelousas,82786
+40820,Ruston,47118
+43340,Shreveport-Bossier City,397590
+12300,Augusta-Waterville,122158
+12620,Bangor,151696
+30340,Lewiston-Auburn,107958
+38860,Portland-South Portland,536314
+12580,Baltimore-Columbia-Towson,2800427
+15680,California-Lexington Park,113182
+15700,Cambridge,31994
+19060,Cumberland,71002
+20660,Easton,37087
+25180,Hagerstown-Martinsburg,150575
+37980,Philadelphia-Camden-Wilmington,102889
+41540,Salisbury,180888
+47900,Washington-Arlington-Alexandria,2467709
+12700,Barnstable Town,213505
+14460,Boston-Cambridge-Newton,4416436
+38340,Pittsfield,125927
+39300,Providence-Warwick,563301
+44140,Springfield,698537
+47240,Vineyard Haven,17430
+49340,Worcester,826655
+10300,Adrian,98310
+10940,Alma,40692
+10980,Alpena,28431
+11460,Ann Arbor,368385
+12980,Battle Creek,133943
+13020,Bay City,103506
+13660,Big Rapids,43481
+15620,Cadillac,48508
+17740,Coldwater,43428
+19820,Detroit-Warren-Dearborn,4317384
+21540,Escanaba,35874
+22420,Flint,406770
+24340,Grand Rapids-Kentwood,1069696
+25880,Hillsdale,45707
+26090,Holland,117104
+26340,Houghton,37992
+27020,Iron Mountain,25373
+27100,Jackson,158174
+28020,Kalamazoo-Portage,264322
+29620,Lansing-East Lansing,547786
+31220,Ludington,29062
+31940,Marinette,22902
+32100,Marquette,66403
+33220,Midland,83445
+33780,Monroe,150000
+34380,Mount Pleasant,70363
+34740,Muskegon,173679
+35660,Niles,153797
+40980,Saginaw,191166
+42300,Sault Ste. Marie,37418
+43780,South Bend-Mishawaka,51613
+44780,Sturgis,60789
+45900,Traverse City,149717
+10660,Albert Lea,30465
+10820,Alexandria,37820
+12380,Austin,39931
+13420,Bemidji,46784
+14660,Brainerd,94237
+20260,Duluth,245779
+21860,Fairmont,19737
+22020,Fargo,64029
+22060,Faribault-Northfield,66549
+22260,Fergus Falls,58416
+24220,Grand Forks,31384
+24330,Grand Rapids,45180
+26780,Hutchinson,35788
+29100,La Crosse-Onalaska,18670
+31860,Mankato,101544
+32140,Marshall,25696
+33460,Minneapolis-St. Paul-Bloomington,3473412
+35580,New Ulm,25076
+36940,Owatonna,36710
+39860,Red Wing,46330
+40340,Rochester,219848
+41060,St. Cloud,200264
+47420,Wahpeton,6264
+48820,Willmar,42909
+49100,Winona,50744
+49380,Worthington,21667
+15020,Brookhaven,34197
+17260,Clarksdale,22685
+17380,Cleveland,31253
+18060,Columbus,58896
+18420,Corinth,37058
+24740,Greenville,45072
+24900,Greenwood,38736
+24980,Grenada,20927
+25060,Gulfport-Biloxi,414662
+25620,Hattiesburg,168646
+26940,Indianola,25759
+27140,Jackson,596287
+29860,Laurel,84761
+32620,McComb,39365
+32820,Memphis,255984
+32940,Meridian,100998
+35020,Natchez,31103
+37060,Oxford,54059
+38100,Picayune,55512
+44260,Starkville,59320
+46180,Tupelo,165851
+46980,Vicksburg,46030
+48500,West Point,19515
+14700,Branson,55563
+16020,Cape Girardeau,91015
+17860,Columbia,207248
+22100,Farmington,66653
+22780,Fort Leonard Wood,52359
+22800,Fort Madison-Keokuk,6783
+25300,Hannibal,38830
+27620,Jefferson City,151094
+27900,Joplin,178816
+28140,Kansas City,1256182
+28380,Kennett,29657
+28860,Kirksville,30018
+30060,Lebanon,35680
+32180,Marshall,22932
+32340,Maryville,22199
+33020,Mexico,25336
+33620,Moberly,24769
+38740,Poplar Bluff,56054
+39500,Quincy,9898
+40620,Rolla,44587
+41140,St. Joseph,117330
+41180,St. Louis,2120446
+42740,Sedalia,42421
+43460,Sikeston,38538
+44180,Springfield,466897
+47660,Warrensburg,53948
+48460,West Plains,40130
+13740,Billings,180641
+14580,Bozeman,111401
+15580,Butte-Silver Bow,34895
+24500,Great Falls,81576
+25740,Helena,80783
+28060,Kalispell,102001
+33540,Missoula,119062
+13100,Beatrice,21548
+18100,Columbus,33250
+23340,Fremont,36565
+24260,Grand Island,75592
+25580,Hastings,31541
+28260,Kearney,56182
+30420,Lexington,25639
+30700,Lincoln,333193
+35740,Norfolk,48101
+35820,North Platte,36358
+36540,Omaha-Council Bluffs,817619
+42420,Scottsbluff,37827
+43580,Sioux City,25806
+16180,Carson City,55244
+21220,Elko,54376
+21980,Fallon,24606
+22280,Fernley,55667
+23820,Gardnerville Ranchos,48486
+29820,Las Vegas-Henderson-Paradise,2228866
+37220,Pahrump,45514
+39900,Reno,468268
+49080,Winnemucca,16834
+13620,Berlin,31486
+14460,Boston-Cambridge-Newton,438372
+18180,Concord,150902
+28300,Keene,76040
+29060,Laconia,61174
+30100,Lebanon,133504
+31700,Manchester-Nashua,415305
+10900,Allentown-Bethlehem-Easton,105730
+12100,Atlantic City-Hammonton,264650
+35620,New York-Newark-Jersey City,6596646
+36140,Ocean City,92701
+37980,Philadelphia-Camden-Wilmington,1307521
+45940,Trenton-Princeton,368085
+47220,Vineland-Bridgeton,150085
+10460,Alamogordo,66804
+10740,Albuquerque,915986
+16100,Carlsbad-Artesia,57865
+17580,Clovis,49502
+19700,Deming,24022
+21580,Española,38962
+22140,Farmington,125608
+23700,Gallup,71956
+24380,Grants,26763
+26020,Hobbs,70359
+29740,Las Cruces,217696
+29780,Las Vegas,32046
+31060,Los Alamos,18976
+38780,Portales,18723
+40740,Roswell,64912
+40760,Ruidoso,19640
+42140,Santa Fe,150319
+43500,Silver City,27391
+45340,Taos,32759
+10580,Albany-Schenectady-Troy,880766
+11220,Amsterdam,49294
+12180,Auburn,76958
+12860,Batavia,57554
+13780,Binghamton,240473
+15380,Buffalo-Cheektowaga,1129018
+18500,Corning,95843
+18660,Cortland,47618
+21300,Elmira,84115
+24020,Glens Falls,125491
+24100,Gloversville,53452
+26460,Hudson,60016
+27060,Ithaca,102237
+27460,Jamestown-Dunkirk-Fredonia,127584
+28740,Kingston,178371
+31660,Malone,50389
+35620,New York-Newark-Jersey City,12609264
+36300,Ogdensburg-Massena,108352
+36460,Olean,76750
+36580,Oneonta,59593
+38460,Plattsburgh,80320
+39100,Poughkeepsie-Newburgh-Middletown,675601
+40380,Rochester,1071784
+42900,Seneca Falls,34295
+45060,Syracuse,650211
+46540,Utica-Rome,290812
+48060,Watertown-Fort Drum,111454
+10620,Albemarle,62050
+11700,Asheville,459344
+14380,Boone,55669
+14820,Brevard,34039
+15500,Burlington,166144
+16740,Charlotte-Concord-Gastonia,2193502
+19000,Cullowhee,57676
+20500,Durham-Chapel Hill,636256
+21020,Elizabeth City,53288
+22180,Fayetteville,523480
+22580,Forest City,66741
+24140,Goldsboro,123785
+24660,Greensboro-High Point,767467
+24780,Greenville,179961
+25780,Henderson,44614
+25860,Hickory-Lenoir-Morganton,367982
+27340,Jacksonville,198377
+28620,Kill Devil Hills,36698
+28820,Kinston,56350
+29900,Laurinburg,34921
+31300,Lumberton,131656
+32000,Marion,45402
+33980,Morehead City,69301
+34340,Mount Airy,71904
+34820,Myrtle Beach-Conway-North Myrtle Beach,137303
+35100,New Bern,124416
+35900,North Wilkesboro,68341
+38240,Pinehurst-Southern Pines,99263
+39580,Raleigh-Cary,1362997
+40260,Roanoke Rapids,70350
+40460,Rockingham,44759
+40580,Rocky Mount,146356
+41820,Sanford,61083
+43140,Shelby,97765
+47260,Virginia Beach-Norfolk-Newport News,49383
+47820,Washington,47160
+48900,Wilmington,293339
+48980,Wilson,81579
+49180,Winston-Salem,671156
+13900,Bismarck,128589
+19860,Dickinson,32050
+22020,Fargo,179937
+24220,Grand Forks,70243
+27420,Jamestown,20879
+33500,Minot,77174
+47420,Wahpeton,16245
+48780,Williston,36044
+10420,Akron,703286
+11740,Ashland,53533
+11780,Ashtabula,97416
+11900,Athens,65945
+13340,Bellefontaine,45315
+15340,Bucyrus-Galion,41603
+15740,Cambridge,38996
+15940,Canton-Massillon,398711
+16380,Celina,41034
+17060,Chillicothe,76816
+17140,Cincinnati,1679583
+17460,Cleveland-Elyria,2053137
+18140,Columbus,2101543
+18740,Coshocton,36558
+19430,Dayton-Kettering,805929
+19580,Defiance,38024
+22300,Findlay,75765
+23380,Fremont,58801
+24820,Greenville,51387
+26580,Huntington-Ashland,59901
+27160,Jackson,32440
+30620,Lima,102808
+31900,Mansfield,121043
+31930,Marietta,60217
+32020,Marion,65179
+34540,Mount Vernon,61776
+35420,New Philadelphia-Dover,92165
+35940,Norwalk,58271
+38580,Point Pleasant,29995
+39020,Portsmouth,75441
+41400,Salem,102514
+41780,Sandusky,74419
+43380,Sidney,48610
+44220,Springfield,134409
+45660,Tiffin,55251
+45780,Toledo,643724
+46500,Urbana,38861
+46780,Van Wert,28213
+47540,Wapakoneta,45709
+47920,Washington Court House,28609
+48260,Weirton-Steubenville,65943
+48540,Wheeling,67424
+48940,Wilmington,42000
+49300,Wooster,116063
+49660,Youngstown-Warren-Boardman,427596
+49780,Zanesville,86033
+10220,Ada,38385
+11060,Altus,24808
+11620,Ardmore,58508
+12780,Bartlesville,51995
+20340,Duncan,43401
+20460,Durant,47325
+21120,Elk City,21860
+21420,Enid,61555
+22900,Fort Smith,41687
+25100,Guymon,20633
+30020,Lawton,127157
+32540,McAlester,43955
+33060,Miami,31283
+34780,Muskogee,68451
+36420,Oklahoma City,1397040
+38620,Ponca City,44074
+43060,Shawnee,72511
+44660,Stillwater,81912
+45140,Tahlequah,48871
+46140,Tulsa,996141
+48220,Weatherford,28929
+49260,Woodward,24288
+10540,Albany-Lebanon,127216
+11820,Astoria,39656
+13460,Bend,191749
+15060,Brookings,22889
+18300,Coos Bay,64175
+18700,Corvallis,92168
+21660,Eugene-Springfield,377749
+24420,Grants Pass,87097
+25840,Hermiston-Pendleton,88744
+26220,Hood River,23270
+28900,Klamath Falls,67606
+29260,La Grande,26502
+32780,Medford,218781
+35440,Newport,49336
+36620,Ontario,30632
+38900,Portland-Vancouver-Hillsboro,1978918
+39260,Prineville,23733
+40700,Roseburg,110015
+41420,Salem,428472
+45520,The Dalles,26274
+10900,Allentown-Bethlehem-Easton,735535
+11020,Altoona,122495
+14100,Bloomsburg-Berwick,83568
+14620,Bradford,41021
+16540,Chambersburg-Waynesboro,154954
+20180,DuBois,79466
+20700,East Stroudsburg,168824
+21500,Erie,272046
+23900,Gettysburg,102627
+25420,Harrisburg-Carlisle,574691
+26500,Huntingdon,45145
+26860,Indiana,84463
+27780,Johnstown,131611
+29540,Lancaster,543050
+30140,Lebanon,140410
+30260,Lewisburg,44831
+30380,Lewistown,46179
+30820,Lock Haven,38549
+32740,Meadville,85074
+35260,New Castle,86148
+35620,New York-Newark-Jersey City,55660
+36340,Oil City,51355
+37980,Philadelphia-Camden-Wilmington,4123687
+38300,Pittsburgh,2324447
+39060,Pottsville,141935
+39740,Reading,419062
+41260,St. Marys,30077
+42380,Sayre,60721
+42540,Scranton--Wilkes-Barre,554787
+42780,Selinsgrove,40452
+43740,Somerset,73844
+44300,State College,162264
+44980,Sunbury,91234
+47620,Warren,39466
+48700,Williamsport,114014
+49620,York-Hanover,447628
+49660,Youngstown-Warren-Boardman,110519
+39300,Providence-Warwick,1057798
+12260,Augusta-Richmond County,196968
+13500,Bennettsville,26376
+16700,Charleston-North Charleston,790955
+16740,Charlotte-Concord-Gastonia,401525
+17900,Columbia,832925
+22500,Florence,205095
+23500,Gaffney,57110
+23860,Georgetown,62150
+24860,Greenville-Anderson,908680
+24940,Greenwood,70672
+25940,Hilton Head Island-Bluffton,219290
+34820,Myrtle Beach-Conway-North Myrtle Beach,344186
+35140,Newberry,38329
+36700,Orangeburg,86953
+42860,Seneca,78314
+43900,Spartanburg,313791
+44940,Sumter,140540
+46420,Union,27325
+10100,Aberdeen,42864
+15100,Brookings,35115
+26700,Huron,20347
+33580,Mitchell,23313
+38180,Pierre,20618
+39660,Rapid City,140653
+43580,Sioux City,15659
+43620,Sioux Falls,264437
+43940,Spearfish,25806
+46820,Vermillion,14076
+47980,Watertown,34237
+49460,Yankton,22746
+11940,Athens,53392
+15140,Brownsville,17391
+16860,Chattanooga,408293
+17300,Clarksville,218545
+17420,Cleveland,123731
+18260,Cookeville,112480
+18900,Crossville,60016
+19420,Dayton,32964
+20540,Dyersburg,37201
+24620,Greeneville,69077
+27180,Jackson,178601
+27740,Johnson City,203147
+28700,Kingsport-Bristol,214442
+28940,Knoxville,861872
+29980,Lawrenceburg,43780
+30280,Lewisburg,33708
+32280,Martin,33377
+32660,McMinnville,40971
+32820,Memphis,1038785
+34100,Morristown,141909
+34980,Nashville-Davidson--Murfreesboro--Franklin,1904186
+35460,Newport,35797
+37540,Paris,32251
+42940,Sevierville,98007
+43180,Shelbyville,48937
+46100,Tullahoma-Manchester,104419
+46460,Union City,30343
+10180,Abilene,171354
+10860,Alice,51990
+11100,Amarillo,264345
+11380,Andrews,18227
+11980,Athens,81969
+12420,Austin-Round Rock-Georgetown,2173804
+13060,Bay City,36791
+13140,Beaumont-Port Arthur,394268
+13300,Beeville,32609
+13700,Big Spring,36213
+14300,Bonham,35046
+14420,Borger,21105
+14780,Brenham,35275
+15180,Brownsville-Harlingen,422135
+15220,Brownwood,37805
+17780,College Station-Bryan,261701
+18580,Corpus Christi,429120
+18620,Corsicana,49475
+19100,Dallas-Fort Worth-Arlington,7451858
+19620,Del Rio,49018
+20300,Dumas,21169
+20580,Eagle Pass,58098
+20900,El Campo,41672
+21340,El Paso,841602
+23240,Fredericksburg,26668
+23620,Gainesville,40428
+24180,Granbury,60025
+25820,Hereford,18617
+26420,Houston-The Woodlands-Sugar Land,6979613
+26660,Huntsville,72295
+27380,Jacksonville,52341
+28500,Kerrville,52195
+28660,Killeen-Temple,452428
+28780,Kingsville,31116
+29500,Lamesa,12849
+29700,Laredo,274847
+30220,Levelland,22986
+30980,Longview,285554
+31180,Lubbock,320031
+31260,Lufkin,87119
+32580,McAllen-Edinburg-Mission,861137
+33260,Midland,176914
+33420,Mineral Wells,28792
+34420,Mount Pleasant,45647
+34860,Nacogdoches,65080
+36220,Odessa,162067
+37300,Palestine,57917
+37420,Pampa,22847
+37580,Paris,49705
+37770,Pearsall,20013
+37780,Pecos,15663
+38380,Plainview,33463
+38920,Port Lavaca,21470
+39700,Raymondville,21419
+40100,Rio Grande City-Roma,64032
+40530,Rockport,24220
+41660,San Angelo,121472
+41700,San Antonio-New Braunfels,2510211
+43300,Sherman-Denison,133527
+43660,Snyder,16918
+44500,Stephenville,42226
+44860,Sulphur Springs,36708
+45020,Sweetwater,14901
+45500,Texarkana,93622
+46340,Tyler,230184
+46620,Uvalde,26899
+46900,Vernon,12717
+47020,Victoria,99622
+47380,Waco,271326
+48660,Wichita Falls,151352
+49820,Zapata,14243
+16260,Cedar City,53148
+25720,Heber,74733
+30860,Logan,126336
+36260,Ogden-Clearfield,672948
+39220,Price,20401
+39340,Provo-Orem,633129
+41100,St. George,172127
+41620,Salt Lake City,1215955
+46860,Vernal,35736
+12740,Barre,58336
+13540,Bennington,35649
+15540,Burlington-South Burlington,219764
+30100,Lebanon,84064
+40860,Rutland,58527
+13720,Big Stone Gap,42001
+13980,Blacksburg-Christiansburg,167201
+14140,Bluefield,47535
+16820,Charlottesville,217455
+19260,Danville,101535
+25500,Harrisonburg,134696
+28700,Kingsport-Bristol,92825
+31340,Lynchburg,262937
+32300,Martinsville,63678
+40060,Richmond,1282067
+40220,Roanoke,313289
+44420,Staunton,122714
+47260,Virginia Beach-Norfolk-Newport News,1719573
+47900,Washington-Arlington-Alexandria,3023704
+49020,Winchester,115966
+10140,Aberdeen,73769
+13380,Bellingham,224538
+14740,Bremerton-Silverdale-Port Orchard,268945
+16500,Centralia,79430
+21260,Ellensburg,47097
+28420,Kennewick-Richland,294396
+30300,Lewiston,22636
+31020,Longview,108399
+34180,Moses Lake,96648
+34580,Mount Vernon-Anacortes,127442
+36020,Oak Harbor,84187
+36500,Olympia-Lacey-Tumwater,284698
+36830,Othello,19702
+38820,Port Angeles,76482
+38900,Portland-Vancouver-Hillsboro,493856
+39420,Pullman,49577
+42660,Seattle-Tacoma-Bellevue,3928498
+43220,Shelton,65326
+44060,Spokane-Spokane Valley,558635
+47460,Walla Walla,60785
+48300,Wenatchee,119173
+49420,Yakima,250649
+13220,Beckley,117539
+14140,Bluefield,59370
+16620,Charleston,260920
+17220,Clarksburg,92936
+19060,Cumberland,27047
+21180,Elkins,28763
+21900,Fairmont,56233
+25180,Hagerstown-Martinsburg,135415
+26580,Huntington-Ashland,189884
+34060,Morgantown,139806
+34350,Mount Gay-Shamrock,32593
+37620,Parkersburg-Vienna,90151
+38580,Point Pleasant,26700
+47900,Washington-Arlington-Alexandria,56922
+48260,Weirton-Steubenville,51280
+48540,Wheeling,72775
+49020,Winchester,23304
+11540,Appleton,236834
+12660,Baraboo,64152
+13180,Beaver Dam,87569
+16980,Chicago-Naperville-Elgin,168998
+20260,Duluth,43497
+20740,Eau Claire,168307
+22540,Fond du Lac,102654
+24580,Green Bay,320827
+27020,Iron Mountain,4312
+27500,Janesville-Beloit,162532
+29100,La Crosse-Onalaska,118168
+31540,Madison,660212
+31820,Manitowoc,78977
+31940,Marinette,40312
+32860,Menomonie,45029
+33340,Milwaukee-Waukesha,1576525
+33460,Minneapolis-St. Paul-Bloomington,132038
+36780,Oshkosh-Neenah,170924
+38420,Platteville,51570
+39540,Racine,195859
+43020,Shawano,45379
+43100,Sheboygan,115152
+44620,Stevens Point,70822
+48020,Watertown-Fort Atkinson,84837
+48140,Wausau-Weston,163172
+48580,Whitewater,103391
+49220,Wisconsin Rapids-Marshfield,72892
+16220,Casper,80067
+16940,Cheyenne,99272
+21740,Evanston,20374
+23940,Gillette,61402
+27220,Jackson,23356
+29660,Laramie,38664
+40180,Riverton,39711
+40540,Rock Springs,43352
+43260,Sheridan,30397
+10380,Aguadilla-Isabela,295172
+11640,Arecibo,177570
+17620,Coamo,38603
+17640,Coco,27638
+25020,Guayama,74291
+27580,Jayuya,14239
+32420,Mayagüez,97198
+38660,Ponce,220601
+41900,San Germán,123319
+41980,San Juan-Bayamón-Caguas,2061555
+42180,Santa Isabel,21474
+49500,Yauco,88203

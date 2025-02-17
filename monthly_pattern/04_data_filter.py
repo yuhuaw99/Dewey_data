@@ -9,7 +9,7 @@ import geopandas as gpd
 def filter_file(file):
     print('Read crosswalk data')
     # read msa2county cross walk 
-    msa_county_cw = pd.read_csv('cbsa2fipsxw.csv', dtype={'cbsacode':'str'})
+    msa_county_cw = pd.read_excel('cbsa2fipsxw.xlsx', dtype={'cbsacode':'str'})
     # msa_county_cw = pd.read_excel('cbsa2fipsxw.xlsx')
 
     # create county column
@@ -66,6 +66,8 @@ def filter_file(file):
 
     # filter data within each msa
     df_mp = df_mp[df_mp['poi_msa'] == df_mp['bg_msa']]
+    df_mp = df_mp[df_mp['poi_msa'].isin(msa['GEOID'])]
+    print(f'The dataframe contains {len(df_mp['poi_msa'].unique())} MSAs')
 
     # save file to disk
     df_mp.rename(columns={'bg_msa':'msa'}, inplace=True)

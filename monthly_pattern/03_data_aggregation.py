@@ -27,10 +27,13 @@ def parallel_read_and_concat(file_paths):
     return combined_df
 
 def main():
-    files = os.listdir('2024_preprocessed')
+    year = 2019
+    os.chdir(f'{year}_files')
+    files = os.listdir(f'{year}_preprocessed')
     months = [str(x).zfill(2) for x in range(1,6)]
+    os.makedirs(f'{year}_monthly', exist_ok=True)
     for month in months:
-        file_paths = [f'2024_preprocessed/{file}' for file in files if f'{month}-01' in file]
+        file_paths = [f'{year}_preprocessed/{file}' for file in files if f'{month}-01' in file]
         # print(file_paths[0:10])
         # print('------------------')
         # print(file_paths)
@@ -42,11 +45,11 @@ def main():
                                                     'visitor_home_cbgs':'first',
                                                     'category':'first'}).reset_index()
         print('Aggregating done, start writing file!')
-        combined_df.to_csv('2024_monthly/'+'monthly_pattern_'+month+'.csv')
+        combined_df.to_csv(f'{year}_monthly/'+'monthly_pattern_'+month+'.csv')
         print('File has been saved!')
         del combined_df
         print('#'*20)
-
+as
 
 if __name__ == '__main__':
     main()

@@ -105,10 +105,13 @@ def excute(file_path_list):
 
 
 def main():
-    in_file_list = [file for file in os.listdir('2024') if 'Foot' in file]
+    year = 2019
+    os.chdir(f'{year}_files')
+    in_file_list = [file for file in os.listdir('raw') if 'Foot' in file]
     out_file_list = [file[:-3] for file in in_file_list]
     file_list = list(zip(in_file_list, out_file_list))
-    file_list = [[f'2024/{x}', f'2024_preprocessed/{y}'] for x,y in file_list]
+    os.makedirs(f'{year}_preprocessed',exist_ok=True)
+    file_list = [[f'raw/{x}', f'{year}_preprocessed/{y}'] for x,y in file_list]
 
     # with parallel_backend('loky', n_jobs=-1):
     #     Parallel()(delayed(excute(x)) for x in file_list)
